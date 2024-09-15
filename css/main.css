@@ -46,21 +46,28 @@ p {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-    grid-template-rows: 
+    grid-template-areas: 
     "start m1 end"
     "start m2 end"
     ;
+    gap: 30px;
 }
 
 .card{
-    /* width: 350px;
-    height: 250px;  */
+    width: 350px;
+    height: 250px; 
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 
+}
+
+.card-img{
+    display: flex;
+    justify-content: right;
+    padding-top: 3rem;
 }
 
 .card:hover {
@@ -99,3 +106,6 @@ p {
     align-self: center;
     border-top: 5px solid #3498db;
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

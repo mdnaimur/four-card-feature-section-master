@@ -173,4 +173,8 @@ p {
         align-self: center;
     }
 
+}.card-image {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: right;
 }
