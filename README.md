@@ -23,8 +23,16 @@ This project involves writing HTML and CSS code, uploading it to Git, providing 
 
 ### Screenshot
 
+<!--
 ![Destop view](./design/desktop-design.jpg)
-![MObile view  view](./design/mobile-design.jpg)
+![Mobile view  view](./design/mobile-design.jpg) -->
+<p align="center">
+  <img src="./design/desktop-design.jpg" alt="Desktop view" width="500"/>
+</p>
+
+<p align="center">
+  <img src="./design/mobile-design.jpg" alt="Mobile view" width="300"/>
+</p>
 
 ### Links
 
@@ -33,7 +41,7 @@ This project involves writing HTML and CSS code, uploading it to Git, providing 
 
 ## My process
 
-Write HTML code and insert QR image inside HTML. After that, I use SCSS for styling. I follow Mobile's first approach for better responsiveness.
+Write HTML code and insert QR image inside HTML. After that, I use CSS for styling. I follow Desktop's first approach for better responsiveness.
 
 ### Built with
 
